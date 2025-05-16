@@ -15,14 +15,19 @@ A **Resume Classification System** using **Natural Language Processing (NLP)** a
 - **Error Handling**: Robust handling of missing data and invalid entries.
 
 ## 📁 File Structure
-resume-selector/
-├── app.py                   # Streamlit app interface
-├── resume_selector.py       # Core logic: data loading, model training, plotting
-├── resume_selector.ipynb    # Jupyter Notebook for model training and analysis
-├── sample_dataset.xlsx      # Sample Excel dataset
-└── README.md                # Project documentation
 
-t
+
+├── app.py                   # Streamlit app interface
+
+├── resume_selector.py       # Core logic: data loading, model training, plotting
+
+├── resume_selector.ipynb    # Jupyter Notebook for model training and analysis
+
+├── sample_dataset.xlsx      # Sample Excel dataset
+
+
+
+
 
 ## 📦 Installation
 1. **Clone the repository** (if using Git, optional):
