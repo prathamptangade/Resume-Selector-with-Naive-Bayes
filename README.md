@@ -22,9 +22,7 @@ resume-selector/
 ├── sample_dataset.xlsx      # Sample Excel dataset
 └── README.md                # Project documentation
 
-text
-
-Copy
+t
 
 ## 📦 Installation
 1. **Clone the repository** (if using Git, optional):
@@ -66,6 +64,8 @@ Evaluate with:
 Confusion Matrix heatmap.
 Classification Report (precision, recall, F1-score).
 Accuracy score.
+
+
 🌐 Running the Streamlit Web App
 Activate the virtual environment:
 bash
@@ -75,9 +75,11 @@ Copy
 Run the app:
 bash
 
+
 Copy
 streamlit run app.py
 Open http://localhost:8501 in your browser.
+
 App Functionality
 📂 Upload: Select an .xlsx file with resume_text and class columns.
 🔧 Test Split: Adjust test set size (0.1 to 0.5) via a slider.
@@ -86,6 +88,8 @@ Trains the Naive Bayes classifier.
 Displays confusion matrix heatmap.
 Shows classification report and predictions (actual vs. predicted).
 Reports accuracy percentage.
+
+
 📈 Preview: View the first 5 rows of the dataset.
 🛠 Code Overview
 resume_selector.py
@@ -99,6 +103,8 @@ Creates a confusion matrix heatmap as a base64-encoded PNG.
 app.py
 Streamlit interface for file upload, model training, and result visualization.
 Handles errors gracefully with user-friendly messages.
+
+
 📈 Example Output (Web App)
 
 Section	Description
@@ -115,6 +121,7 @@ Add visualization for misclassified resumes.
 Enable export of predictions to CSV/Excel.
 Support multi-class classification (e.g., multiple job roles).
 Deploy to Streamlit Community Cloud for online access.
+
 👨‍💻 Author
 Pratham
 
