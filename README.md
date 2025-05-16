@@ -123,7 +123,7 @@ Support multi-class classification (e.g., multiple job roles).
 Deploy to Streamlit Community Cloud for online access.
 
 👨‍💻 Author
-Pratham
+Pratham Tangade
 
 Computer Science student passionate about NLP and machine learning.
 Developed with Python, scikit-learn, Streamlit, and NLTK.
